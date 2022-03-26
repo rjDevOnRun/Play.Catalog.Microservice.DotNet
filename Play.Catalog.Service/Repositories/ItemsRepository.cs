@@ -20,6 +20,7 @@ namespace Play.Catalog.Service.Repositories
 
         public ItemsRepository()
         {
+            // connectionstring = "mongodb://localhost:27017/"
             // Get MongoDb Client using connection string
             var mongoClient = new MongoClient("mongodb://localhost:27017");
             // Get the required Database by name
